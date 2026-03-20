@@ -1,12 +1,12 @@
 # Amazon Price Tracking Discord Bot
 
-A Discord bot that tracks Amazon product prices and notifies users when the price changes.
+Discord bot that tracks Amazon prices and sends notifications when price changes occur.
 
 ---
 
 ## Features
 
-- Track Amazon product prices via URL
+- Track Amazon products via URL
 - Price history per user
 - Detection of price increases and decreases
 - Private Discord messages on price changes
@@ -25,14 +25,38 @@ A Discord bot that tracks Amazon product prices and notifies users when the pric
 ## Installation
 
 ### 1. Clone the project
-git clone https://github.com/your-username/amazon-price-tracker-bot.git
-cd amazon-price-tracker-bot
+
+git clone https://github.com/your-username/amazon-price-tracker-bot.git  
+cd amazon-price-tracker-bot  
 
 ### 2. Install dependencies
-pip install -r requirements.txt
+
+pip install -r requirements.txt  
 
 ---
 
-## Run
+## Configuration (.env required)
+
+Create a `.env` file at the root of the project (same folder as `main.py`):
+
+DISCORD_TOKEN=your_token_here  
+
+---
+
+## Create a Discord bot + get token
+
+https://discord.com/developers/applications  
+
+Steps:
+
+- Create a “New Application”
+- Go to the Bot tab
+- Click “Add Bot”
+- Copy the TOKEN
+- Paste it into the `.env` file
+
+---
+
+## Run the bot
 
 python main.py
