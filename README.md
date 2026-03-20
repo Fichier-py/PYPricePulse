@@ -26,12 +26,16 @@ Discord bot that tracks Amazon prices and sends notifications when price changes
 
 ### 1. Clone the project
 
-git clone https://github.com/your-username/amazon-price-tracker-bot.git  
-cd amazon-price-tracker-bot  
+<pre>
+git clone https://github.com/your-username/amazon-price-tracker-bot.git
+cd amazon-price-tracker-bot
+</pre>
 
 ### 2. Install dependencies
 
-pip install -r requirements.txt  
+<pre>
+pip install -r requirements.txt
+</pre>
 
 ---
 
@@ -39,7 +43,7 @@ pip install -r requirements.txt
 
 Create a `.env` file at the root of the project (same folder as `main.py`):
 
-DISCORD_TOKEN=your_token_here  
+DISCORD_TOKEN=your_token_here
 
 ---
 
@@ -59,4 +63,6 @@ Steps:
 
 ## Run the bot
 
+<pre>
 python main.py
+</pre>
